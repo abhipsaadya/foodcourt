@@ -17,7 +17,7 @@ const Menu = () => {
 
   const filteritems=(curitems)=>{
     const updateitem=MenuList.filter((cur,ind)=>{
-      return cur.category == curitems;
+      return cur.category === curitems;
 
     })
     setMenu(updateitem)
