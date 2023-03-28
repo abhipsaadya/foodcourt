@@ -1,0 +1,24 @@
+.nav-menu{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.nav-menu li{
+  margin: 0px 20px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color:white;
+}
+.mobile-navigation li a{
+  text-decoration: none;
+  color:black;
+ 
+
+}
+.mobile-navigation li{
+ 
+  padding:10px;
+  width: 250px;
+}
